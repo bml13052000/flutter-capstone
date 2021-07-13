@@ -39,7 +39,8 @@ def search_stuff():
     
     if request.method == 'POST':
         #new_id = test_wiki[-1]['id']+1
-        new_title = request.form['title']
+        # new_title = request.form['title']
+        new_title= request.json['title']
         new_desc = wikipedia.summary(new_title,sentences=2,auto_suggest=False)
 
         new_obj= {
