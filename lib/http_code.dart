@@ -7,7 +7,7 @@ import 'package:httptest/http_response.dart';
 Future<MyResponse> createPost(String title) async {
 
   final response = await http.Client().post(
-    Uri.parse("http://192.168.1.18:5000/wikisearch"),
+    Uri.parse("http://baivabm13.pythonanywhere.com/wikisearch"),
     headers: <String,String>{
       'Content-Type':'application/json'
     },
