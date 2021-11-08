@@ -1,6 +1,6 @@
 # httptest
 
-A new Flutter application.
+This is a dummy wikipedia search app developed in flutter
 
 ## Getting Started
 
